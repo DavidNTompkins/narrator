@@ -58,7 +58,7 @@ You'll need API keys for OpenRouter, Stability AI, and FAL AI. Here's how to obt
    - Navigate to your dashboard and find your API key
 
 2. Stability AI API Key:
-   - Visit [Stability AI](https://stability.ai/)
+   - Visit [Stability AI](https://beta.dreamstudio.ai/generate)
    - Create an account or log in
    - Go to your account settings to find your API key
 
