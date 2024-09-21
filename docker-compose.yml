@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: narrator_frontend:latest
+    build:
+      context: ./narrator_frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3003:3003"  # Map container port 3000 to host port 3003
+    environment:
+      - NODE_ENV=production
+      - REACT_APP_API_URL=http://backend:3000  # Ensure frontend can reach backend
+    depends_on:
+      - backend
+
+  backend:
+    image: narrator_backend:latest
+    build:
+      context: ./narrator_backend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./narrator_backend/.env
+    environment:
+      - NODE_ENV=production
+
+networks:
+  default:
+    driver: bridge
