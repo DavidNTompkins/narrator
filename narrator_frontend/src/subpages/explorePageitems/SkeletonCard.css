@@ -1,0 +1,28 @@
+@keyframes loading {
+  0% {
+    background-color: rgba(165, 165, 165, 0.1);
+  }
+  50% {
+    background-color: rgba(165, 165, 165, 0.3);
+  }
+  100% {
+    background-color: rgba(165, 165, 165, 0.1);
+  }
+}
+
+.skeleton-card {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.skeleton-image {
+  background-color: #eee;
+  animation: loading 1.5s infinite ease-in-out;
+}
+
+.skeleton-text {
+  background-color: #eee;
+  animation: loading 1.5s infinite ease-in-out;
+}

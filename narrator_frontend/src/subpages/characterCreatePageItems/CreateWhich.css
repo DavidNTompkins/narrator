@@ -1,0 +1,58 @@
+/* Modal.css */
+.create-which-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.create-which-modal-content {
+  background-color: var(--form);
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid var(--formOutline);
+  color:white;
+  border-radius: 5px;
+  width: 50%;
+  max-width:600px;
+  min-height: 30%;
+  display: flex;
+  box-shadow: 0 4px 8px 0 var(--formOutline), 0 2px 20px 0 var(--formOutline); 
+}
+.create-which-image {
+  border-radius:5px;
+  box-shadow: 0 2px 4px black;
+}
+
+.create-which-section {
+  flex: 1;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  background-color: var(--form);
+  cursor: pointer;
+  transition: background-color 0.3s;
+ position: relative; /* Added to position the line correctly */
+}
+
+/* Added styles for the vertical line */
+.create-which-section:first-child::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px; /* Width of the line */
+  background-color: var(--formHighlight); /* Color of the line */
+}
+.create-which-section:hover {
+  background-color: var(--formOutline);
+}

@@ -1,0 +1,49 @@
+
+
+.share-content button {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+    border: 1px solid var(--formHighlight);;
+    -webkit-text-fill-color: var(--formHighlight);;
+    color: var(--formHighlight);;
+    background-color: var(--formOutline);
+  cursor: pointer;
+}
+.share-content button[type="cancel"]{
+  background-color:var(--Button);
+}
+.share-content p{
+  color:var(--formHighlight);
+  margin:0;
+  padding:0;
+}
+
+.share button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.settings-title{
+  color:var(--formHighlight);
+}
+.modalWindowLabel {
+  color:var(--formHighlight);
+  margin: 10px 0;
+  margin-left:5px
+}
+
+.share-content select {
+  width: 70%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.share-content input {
+  width: 15%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}

@@ -1,0 +1,193 @@
+.subscription-page {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.LoginBlocker-logo{
+  width:15em;
+  height:auto;
+}
+
+.free-tier, .premium-tier,.premium-tier-blocker, .free-month-alert, .silver-tier {
+  background: var(--form);
+  border:1px solid var(--formHighlight);
+  box-shadow: rgba(0, 122, 122, 0.17) 0px -10px 10px 0px inset, rgba(0, 122, 122, 0.15) 0px -36px 30px 0px inset, rgba(0, 122, 122, 0.1) 0px -79px 40px 0px inset, 0 2px 0px 0 var(--formOutline);
+  padding: 20px;
+  border-radius:10px;
+  width: 25%; /* Adjusted to take up a bit more space within the new max-width constraint */
+  max-width: 500px; /* This will prevent individual tiers from becoming too wide */
+  min-height:70vh;
+  color:white;
+   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.free-tier-mobile, .premium-tier-mobile, .silver-tier-mobile {
+  background: var(--form);
+  border:1px solid var(--formHighlight);
+  box-shadow: rgba(0, 122, 122, 0.17) 0px -10px 10px 0px inset, rgba(0, 122, 122, 0.15) 0px -36px 30px 0px inset, rgba(0, 122, 122, 0.1) 0px -79px 40px 0px inset, 0 2px 0px 0 var(--formOutline);
+  padding: 20px;
+  border-radius:10px;
+  width: 85%; /* Adjusted to take up a bit more space within the new max-width constraint */
+  max-width: 500px; /* This will prevent individual tiers from becoming too wide */
+  min-height:70vh;
+  color:white;
+  margin:auto;
+   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+.premium-tier-blocker, .free-month-alert{
+  width:70%;
+  margin:auto;
+  font-size:2vh;
+  height:50%;
+  min-height:0;
+  max-height:90vh;
+  overflow:auto;
+  scroll:auto;
+}
+
+.premium-tier, .premium-tier-blocker, .free-month-alert, .premium-tier-mobile{
+    box-shadow: 0 0 10px 2px rgba(255, 215, 0, 0.7);
+}
+.silver-tier, .silver-tier-blocker, .silver-tier-mobile{
+    box-shadow: 0 0 15px 3px rgba(216, 216, 216, 0.7);
+}
+.free-tier, .free-tier-blocker, .free-tier-mobile{
+    box-shadow: 0 0 10px 2px rgba(184, 115, 51, 0.7);
+}
+.premium-tier-mobile, .silver-tier-mobile{
+  margin-bottom: 10px;
+}
+
+.subscription-footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:15%;
+}
+
+.free-tier img, .premium-tier img, .premium-tier-blocker img, .silver-tier img{
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.free-tier-mobile img, .premium-tier-mobile img, .silver-tier-mobile img{
+  width:150px;
+  height:150px;
+}
+.premium-tier-blocker img{
+  width:100px;
+  height:100px;
+}
+.premium-tier:hover, .premium-tier-blocker:hover, .premium-tier-mobile:hover {
+  box-shadow: 0 0 15px 3px rgba(255, 215, 0, 0.9); /* Increasing the glow on hover */
+}
+.silver-tier:hover, .silver-tier-blocker:hover, .silver-tier-mobile:hover {
+  box-shadow: 0 0 20px 5px rgba(216, 216, 216, 0.9); /* Increasing the glow on hover */
+}
+.free-tier:hover, .free-tier-blocker:hover, .free-tier-mobile:hover {
+  box-shadow: 0 0 15px 3px rgba(184, 115, 51, 0.9); /* Increasing the glow on hover */
+}
+
+.free-tier h2, .premium-tier h2, .free-tier-mobile h2, .premium-tier-mobile h2, .silver-tier h2, .silver-tier-mobile h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.premium-tier-blocker h2 {
+  text-align: center;
+  margin: 6px 0;
+}
+
+.free-tier ul, .premium-tier ul, .premium-tier-blocker ul, .premium-tier-mobile ul, .silver-tier ul, .silver-tier-mobile ul {
+  list-style-type: none;
+  padding-left: 6%;
+  font-size:16;
+}
+
+.free-tier ul, .premium-tier ul, .premium-tier-blocker ul, .premium-tier-mobile ul, .silver-tier ul, .silver-tier-mobile ul {
+  list-style-type: none; /* Removes default bullet points */
+  padding: 0;
+}
+
+.free-tier ul li, .premium-tier ul li, .premium-tier-blocker ul li, .premium-tier-mobile ul li, .silver-tier ul li, .silver-tier-mobile ul li {
+  position: relative;
+  margin-top:3px;
+  padding-left: 1.5em; /* Adjust as necessary to give space for the bullet point */
+}
+.free-tier ul li::before {
+  content: "\2022"; /* Unicode character for bullet point */
+  position: absolute;
+  left: 0;
+  color: rgba(184, 115, 51); /* Adjust color as per your design */
+  font-size: 1.1em; /* Adjust size as per your design */
+}
+.premium-tier ul li::before, .premium-tier-blocker ul li::before, .premium-tier-mobile ul li::before {
+  content: "\2022"; /* Unicode character for bullet point */
+  position: absolute;
+  left: 0;
+  top:0;
+  color: gold; /* Adjust color as per your design */
+  font-size: 1.1em; /* Adjust size as per your design */
+}
+.silver-tier ul li::before, .silver-tier-blocker ul li::before, .silver-tier-mobile ul li::before {
+  content: "\2022"; /* Unicode character for bullet point */
+  position: absolute;
+  left: 0;
+  top:0;
+  color: rgb(216, 216, 216); /* Adjust color as per your design */
+  font-size: 1.1em; /* Adjust size as per your design */
+}
+.free-tier p, .premium-tier p, .premium-tier-blocker p, .free-month-alert p, .silver-tier p{
+  text-align: center;
+  font-size: 1.15em;
+  margin: 10px 0;
+}
+
+.premium-tier-blocker ul li {
+    font-size: 0.8em;
+}
+
+.free-tier button, .premium-tier button, .premium-tier-blocker button, .free-month-alert button, .free-tier-mobile button, .premium-tier-mobile button, .silver-tier button, .silver-tier-mobile button {
+  display:inline-block;
+  position:relative;
+  background: var(--formHighlight);
+  color:black;
+  font-size:1.4em;
+  font-weight:bold;
+  justify:center;
+  align:top;
+  border:1px solid gold;
+  border-radius:20px;
+  filter: drop-shadow(2px 3px 4px black);
+  cursor:pointer;
+}
+.premium-tier button:hover, .premium-tier-blocker button:hover, .premium-tier-mobile:hover, .silver-tier button:hover, .silver-tier-mobile button:hover {
+
+  filter: drop-shadow(0px 1px 1px black);
+  border:1px solid gold;
+  
+}
+
+.premium-tier-blocker p {
+  font-size:min(1.15em, 20px);
+}
+
+.premium-tier-blocker button, .free-month-alert button {
+font-size:min(1.2em,22px);
+margin-bottom:3px;
+}
+
+.free-month-alert {
+  font-size:22px;
+}

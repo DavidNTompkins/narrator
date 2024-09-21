@@ -1,0 +1,115 @@
+.modal-overlay {
+  position: fixed;
+  white-space: pre-line;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-overlay label, .modal-overlay h2, .modal-overlay p {
+  color:var(--formExtraHighlight);
+  display:block;
+  text-align:center;
+}
+
+.modal-overlay input, .modal-overlay select, .modal-overlay textarea{
+  background:var(--formExtraDark);
+  color:var(--formExtraHighlight);
+  border: 1px solid var(--formHighlight);
+    display:block;
+  text-align:center;
+  margin:auto;
+}
+.modal-overlay input, .modal-overlay textarea{
+  width:85%;
+}
+.modal-overlay input::placeholder, .modal-overlay textarea::placeholder{
+  color:var(--formHighlight);
+}
+.modal-overlay select{
+  padding:0.3em;
+  margin:0em auto 0em auto;
+}
+
+.publishButton {
+  display:block;
+    margin:0;
+    padding:1%;
+    cursor: pointer;
+    background-color: rgba(7, 180, 230, 0);
+    border: none;
+    outline: none;
+    color: gold;
+    transition: width var(--easeTime), padding var(--easeTime), margin var(--easeTime), color var(--easeTime);
+}
+.publishButton svg {
+  filter: drop-shadow(1px 1px 1px black);
+}
+
+.modal {
+  background-color: white;
+    white-space: pre-line;
+  color:black;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 90%;
+  width: 500px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.modal p{
+    white-space: pre-line !important;
+}
+.ButtonDiv {
+  text-align:right;
+}
+p[type="optionstext"]{
+  margin:-3px auto 0 auto;
+  padding:0;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* Confirm Button */
+.confirm-button {
+  color:var(--formHighlight);
+  cursor: pointer;
+  background: var(--formOutline);
+  font-size:1.0em;
+  border: 2px solid var(--form);
+  border-radius: 5px;
+  padding: 0.6em;
+}
+
+.confirm-button:hover {
+  background-color: var(--formDark); /* Darker green */
+}
+
+/* Cancel Button */
+.cancel-button {
+   color:#b4ecee;
+  cursor: pointer;
+  background: #7a0000;
+  border: 2px solid #3d0000;
+  font-size:1.0em;
+  border-radius: 3px;
+  padding: 0.6em 0.8em 0.6em 0.8em;
+}
+
+input[type="checkbox"]{
+  display:inline;
+  width:auto !important;
+    display:block;
+  text-align:center;
+  margin:auto;
+}
+
+.cancel-button:hover {
+  background-color: #3d0000; /* Darker red */
+}
+

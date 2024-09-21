@@ -1,0 +1,79 @@
+.loginBlock-input::placeholder{
+color: #b4ecee
+  
+}
+.clickable-span-login{
+  color:var(--formHighlight);
+  margin: 0.5em auto 0.5em auto;
+  cursor:pointer;
+}
+
+.LoginBlock-recoverEmailButton{
+  color:#b4ecee;
+  cursor: pointer;
+  background: #7a0000;
+  border: 2px solid #3d0000;
+  font-size:1.0em;
+  border-radius: 3px;
+  padding: 0.6em;
+}
+
+.LoginBlock-emailLoginButton{
+  color:var(--formHighlight);
+  cursor: pointer;
+  background: var(--formOutline);
+  font-size:1.0em;
+  border: 2px solid var(--form);
+  border-radius: 5px;
+  padding: 0.6em;
+}
+
+.tier-card-div,.newPlayer-card-div{
+  color: white;
+  background:var(--form);
+  border-radius:5px;
+  border: 1px solid var(--formOutline);
+  margin:0 auto 10px auto;
+  box-shadow: 2px 2px 4px var(--formOutline);
+  cursor:pointer;
+}
+.newPlayer-card-div{
+cursor:auto;
+  padding-right:5px;
+}
+.tier-card-div:hover,.newPlayer-card-div:hover{
+  border:1px solid var(--formHighlight);
+  box-shadow: 3px 3px 8px var(--formOutline);
+}
+.tier-card-div li, .newPlayer-card-div li{
+  text-align:left;
+  padding:2px;
+}
+.tier-card-div h2, .newPlayer-card-div h2{
+  padding:0;
+  text-align:center;
+  margin:5px auto 0 auto;
+}
+
+.LoginBlock-googleLoginButton{
+  display: flex;
+  cursor: pointer;
+  color:var(--formHighlight);
+  margin: 1em auto 1.5em auto;
+  font-size:1.0em;
+  background: var(--formOutline);
+  border: 2px solid var(--form);
+  border-radius: 5px;
+  padding: 0.6em;
+}
+
+.LoginBlock-LoginButtons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin:5px 0 5px 0;
+}
+
+.LoginBlocker-logo{
+  
+}

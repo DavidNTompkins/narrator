@@ -1,0 +1,57 @@
+.create-card-header {
+    /* Margin adjustments for headers */
+    margin-bottom: 5px;
+    margin-top:0;
+    color:white;
+}
+
+.create-card-section {
+    /* Margin adjustments for each section */
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.create-card-label {
+    /* Margin adjustments for labels */
+    margin:auto;
+    margin-bottom: 3px;
+    margin-top:2px;
+}
+
+.create-card-input > input[type="text"],
+.create-card-textarea {
+    width: 100%; /* Ensuring full width */
+    padding: 8px; /* Adjust padding to control size */
+    margin-bottom: 5px; /* Adjust margin between elements */
+    margin-left:0px;
+}
+
+.create-card-button-container {
+    /* Margin adjustments for the button container */
+    margin-top: 5px; /* Adjust as needed */
+}
+
+.create-card-button,
+.create-card-button-secondary {
+    /* Padding adjustments for buttons */
+    padding: 8px 16px; /* Adjust padding to control size */
+    margin-right: 5px; /* Adjust margin between buttons */
+}
+
+.create-card-input-group {
+    display: flex;
+    justify-content: space-between; /* Adjust space between items */
+    gap: 10px; /* Space between the flex items */
+    width:95%;
+}
+
+.create-card-input-group > div {
+    flex: 1; /* Each child div takes equal space */
+}
+
+.create-card-input {
+    width: 100%; /* Full width within its parent */
+}
+.create-card-dropdown{
+    background: var(--formOutline);
+}

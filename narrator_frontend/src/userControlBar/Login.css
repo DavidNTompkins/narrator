@@ -1,0 +1,131 @@
+.loginButtonContainer {
+  display: inline-block;
+  position:relative;
+}
+
+.popupMenu {
+  position: absolute;
+  background-color: white;
+  right: -20px;
+  top:100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-width: 250px;
+  z-index: 1;
+}
+
+.closeMenuButton {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.popupMenu p {
+
+}
+
+.adventureList {
+  max-height: 45vh;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.adventureListItem {
+  padding: 5px;
+  border-bottom: 1px solid #3d0000;
+}
+.adventureListItem:hover {
+  background:#eee;
+  cursor:pointer;
+  
+}
+.error-message {
+  color: red;
+  margin-bottom: 1rem;
+}
+h5{
+  margin:3px auto 3px auto;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin:auto;
+    
+}
+.loginButtons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin:5px auto 5px auto;
+    
+}
+
+.adventureListItem:last-child {
+  border-bottom: none;
+}
+
+.emailLoginButton {
+  cursor: pointer;
+  background-color: #004040;
+  color: white;
+  border: none;
+  padding: 6px 9px;
+  margin-bottom:3px;
+}
+
+.recoverEmailButton {
+  cursor: pointer;
+  background-color: white;
+  color: gray;
+  border: none;
+  padding: 1px;
+  margin-bottom:3 px;
+}
+
+.googleLogin {
+  cursor: pointer;
+  background-color: #004040;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  display: flex;
+  margin:8px auto 8px auto;
+}
+
+input {
+  width:100%;
+}
+.save-game-names{
+  font-size:0.8em;
+  padding:0;
+  margin:0;
+  margin-bottom:0.2em;
+}
+.save-game-title{
+  padding:0;
+  margin:0.3em 0 0.2em 0;
+}
+
+.adventure-delete-button{
+  display: block;
+  float: right;
+}
+.adventure-delete-button button{
+  display: inline;
+  
+  right: 5%;
+  z-index:10;
+  border: none;
+  background-color: rgba(7, 180, 230, 0);
+  cursor: pointer;
+  outline: none;
+  color: red;
+}

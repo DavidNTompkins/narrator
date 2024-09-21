@@ -1,0 +1,24 @@
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  overflow: hidden;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 1s ease-in-out;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.image2 {
+  opacity: 0;
+}

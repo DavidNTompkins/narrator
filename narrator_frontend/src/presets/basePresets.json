@@ -1,0 +1,414 @@
+{
+  "Adventure":{
+  "A School for Wizards": {
+    "setting": "The entrance of Silverquill School of Wizardry",
+    "name1": "Theobald Longtower",
+    "name2": "Shim Black",
+    "race1": "Human Wizard Professor",
+    "race2": "Dwarf Warrior Blacksmith",
+    "class1": "Wise, thoughtful",
+    "class2": "Grumpy, terse",
+    "background1": "A white haired wizard known for his fancy attire and tall blue hat. He carries a staff made of elderwood.",
+    "background2": "A tired dwarf blacksmith who has turned to the sword. He is an adventurer and wears handcrafted metal armor.",
+    "gametype": "Fantasy"
+  },
+  "You meet in a Tavern": {
+    "setting": "A Tavern",
+    "name1": "William Yards",
+    "name2": "Edgar York",
+    "race1": "Human Knight",
+    "race2": "Human Bard",
+    "class1": "Kind, Quick to action",
+    "class2": "Loud, Quick to innuendo",
+    "background1": "A bald man in armor. A holy knight.",
+    "background2": "A charming grinning handsome man with a pint of ale",
+    "gametype": "Adventure"
+  },
+    "Here be Pirates": {
+    "setting": "Captain's Quarters",
+    "name1": "Captain Cornelious Volt",
+    "name2": "Skipper Steve",
+    "race1": "Pirate Captain",
+    "race2": "Pirate",
+    "class1": "Fierce, Rash, Bold",
+    "class2": "Timid, soft",
+    "background1": "A fierce pirate. He has an eyepatch, and a hook for a hand.",
+    "background2": "A timid pirate in a french sailor outfit.",
+    "gametype": "Pirate"
+  },
+    "On the road to Eldenshire": {
+    "setting": "The road between Hog's Landing and Eldenshire",
+    "name1": "Marcy Deliria",
+    "name2": "Francis Polo",
+    "race1": "Human Druid",
+    "race2": "Elf Assassin",
+    "class1": "Earthy, nature-loving, hippie",
+    "class2": "Steathly, mysterious, serious",
+    "background1": "A hippie druid in tattered brown robes. She wears glasses, bookish.",
+    "background2": "A somber elf rogue in leather armor.",
+    "gametype": "Adventure"
+  },
+    "Dragon Heist": {
+    "setting": "In a Dragon's den",
+    "name1": "Brick McGill",
+    "name2": "Roy Alabast",
+    "race1": "Halfling Rogue",
+    "race2": "Human Archer",
+    "class1": "Cheerful, fortunate",
+    "class2": "Dour, unlucky",
+    "background1": "A hobbit halfling with messy hair.",
+    "background2": "A glum man in adventurer's clothes.",
+    "gametype": "Treasure-seeking"
+  }
+},
+  "Familiar Tales":{
+    "Beowulf": {
+    "setting": "the great hall, Heorot, moments before disaster. Output type: Epic Poem only.",
+    "name1": "Beowulf",
+    "name2": "Hrothgar",
+    "race1": "Hero of the Geats",
+    "race2": "King of the Danes",
+    "class1": "Heroic, fights hand to hand",
+    "class2": "Heroic, aged",
+    "background1": "A powerful viking warrior",
+    "background2": "An older viking warrior king",
+    "gametype": "Beowulf-themed"
+  },
+    "Peter Pan": {
+    "setting": "The deck of Captain Hook's ship; Neverland",
+    "name1": "Peter Pan",
+    "name2": "Tinker Bell",
+    "race1": "Human",
+    "race2": "Fairy",
+    "class1": "Optimistic, adventure-seeking lost boy, can fly",
+    "class2": "Loyal, vindictive, can only feel one emotion at a time",
+    "background1": "Peter Pan",
+    "background2": "Tinker Bell",
+    "gametype": "Peter Pan"
+  },
+        "Sherlock": {
+    "setting": "A crime scene in an old victorian mansion",
+    "name1": "Sherlock Holmes",
+    "name2": "John Watson",
+    "race1": "Detective",
+    "race2": "Doctor",
+    "class1": "Insightful, impossibly clever, perceptive",
+    "class2": "Helpful, Smart, supportive",
+    "background1": "Sherlock Holmes",
+    "background2": "John Watson",
+    "gametype": "whodunit mystery"
+  },
+    "King Arthur": {
+    "setting": "The Round Table",
+    "name1": "King Arthur",
+    "name2": "Merlin",
+    "race1": "The once and future King",
+    "race2": "Wizard",
+    "class1": "Chivalrous, courageous, gallant",
+    "class2": "Wise, powerful, knowledgeable",
+    "background1": "King Arthur, knight",
+    "background2": "Merlin the wizard",
+    "gametype": "King Arthur themed Adventure"
+  }
+  },
+  "Space":{
+  "Boldly Going": {
+    "setting": "The Bridge of a private star cruiser",
+    "name1": "Captain Theo Hobani",
+    "name2": "Lieutenant Susan Fitzgibbons",
+    "race1": "Human Captain",
+    "race2": "Human Lieutenant ",
+    "class1": "Charismatic, serious",
+    "class2": "Driven, clever",
+    "background1": "A captain of the Galactic Empire who wears military garb. He has slick black hair and sharp blue eyes",
+    "background2": "A First Lieutenant of the Galactic Empire who wears military garb. SHe has slick red hair and sharp green eyes",
+    "gametype": "Space-faring"
+  },
+  "Aliens": {
+    "setting": "Near the Andromedia Galaxy",
+    "name1": "Zleep Zappers",
+    "name2": "Nom Glip",
+    "race1": "Alien",
+    "race2": "Alien",
+    "class1": "Kind, strong",
+    "class2": "Kind, smart",
+    "background1": "An Alien with green skin and a space suit.",
+    "background2": "An Alien with blue skin and a space suit.",
+    "gametype": "Space-faring"
+  },
+    "Crash Landed": {
+    "setting": "In the wreckage of a spaceship, on the planet Zarnok 9. Start by telling the player about the planet.",
+    "name1": "Amanda Swanson",
+    "name2": "Roy Tompkins",
+    "race1": "Pilot",
+    "race2": "Co-Pilot",
+    "class1": "Determined",
+    "class2": "Level-headed",
+    "background1": "A female astronaut",
+    "background2": "A male astronaut",
+    "gametype": "Survival"
+  },
+    "The Holodeck": {
+    "setting": "The Doors to the Holodeck. Ask the player what they would like to simulate.",
+    "name1": "Joe Smith",
+    "name2": "Jane Doe",
+    "race1": "Human",
+    "race2": "Human",
+    "class1": "Generic Human",
+    "class2": "Generic Human",
+    "background1": "A man with brown hair and simple features.",
+    "background2": "A woman with brown hair and simple features.",
+    "gametype": "Virtual simulation"
+  }
+},
+  "Western":{
+  "A Train Robbery": {
+    "setting": "Horseback chasing a train",
+    "name1": "Wild-eye Willie",
+    "name2": "Coyote Sam",
+    "race1": "Bandit",
+    "race2": "Bandit",
+    "class1": "Roguish, dashing",
+    "class2": "Brutal, deceptive",
+    "background1": "A famous western outlaw known for his cowboy hat and six-shooter. He rides a horse faster than any other",
+    "background2": "A famous western outlaw known for bandana mask and six-shooters. He rides a bucking bronco",
+    "gametype": "Train heist"
+  },
+  "A shoot out": {
+    "setting": "High Noon in the town square, facing down an outlaw",
+    "name1": "Richard Buell",
+    "name2": "James Byrne",
+    "race1": "Sheriff",
+    "race2": "Deputy",
+    "class1": "World-weary, cautious",
+    "class2": "Optimistic, reckless",
+    "background1": "A sharp sheriff of the old west. He has a thick handlebar mustache and a raised eyebrow",
+    "background2": "A sheriff of the wild west. He has a sweaty brow and a large hat.",
+    "gametype": "shoot out"
+  },
+    "Cattle Run": {
+    "setting": "The open plains",
+    "name1": "Calvin Casmalia",
+    "name2": "George Nipomo",
+    "race1": "Cattle Rancher",
+    "race2": "Cattle Rancher",
+    "class1": "Rugged, tough",
+    "class2": "Stern, unyielding",
+    "background1": "A cattle rancher with black hair and stubble. ",
+    "background2": "A cattle rancher with brown hair and stubble.",
+    "gametype": "Calm cattle ranching"
+  },
+    "Bounty Hunters": {
+    "setting": "An old-west saloon",
+    "name1": "Hound Johnson",
+    "name2": "Deputy Arnold",
+    "race1": "Bounty Hunter",
+    "race2": "Bounty Hunter",
+    "class1": "Clever, dashing",
+    "class2": "Trusting, prone to repeating his partner.",
+    "background1": "A well-dressed old-fashioned detective",
+    "background2": "A deputy old-fashioned detective",
+    "gametype": "Bounty Hunter and Detective"
+  }
+},
+  "Slice-of-Life":{
+  "A First Date": {
+    "setting": "Joe's Italian Restaurant",
+    "name1": "Andrea Park",
+    "name2": "Kyle Jericho",
+    "race1": "Interior Designer",
+    "race2": "Painter",
+    "class1": "Curious, charming",
+    "class2": "charming, flirty",
+    "background1": "A beautiful woman with long black hair and sharp features. She wears a fancy dress.",
+    "background2": "A handsome man with rugged features and kind eyes. He wears a nice flannel shirt.",
+    "gametype": "First Date Simulator"
+  },
+  "First Day of School": {
+    "setting": "The first day of 9th Grade. Gamemode: combat disabled.",
+    "name1": "Antonio Reggiano",
+    "name2": "Abigail Silvers",
+    "race1": "9th Grader",
+    "race2": "9th Grader",
+    "class1": "Average",
+    "class2": "Smart, popular",
+    "background1": "A male highschool freshman with acne and a goofy look.",
+    "background2": "A female highschool freshman.",
+    "gametype": "Slice-of-life"
+  },
+    "Not a Licensed Therapist": {
+    "setting": "The Therapist's Office. Game Mode: Conversation only.",
+    "name1": "Pete Michaels",
+    "name2": "Lilly Smith",
+    "race1": "Patient",
+    "race2": "Therapist",
+    "class1": "Struggling",
+    "class2": "Kind, supportive",
+    "background1": "A distraught man dealing with grief and sadness. Crying",
+    "background2": "A kind woman who is a therapist",
+    "gametype": "Therapy"
+  },
+    "Not a Lawyer": {
+    "setting": "A courtroom",
+    "name1": "Harvey Lawman",
+    "name2": "Nick Justice",
+    "race1": "Lawyer",
+    "race2": "Lawyer (opposing counsel)",
+    "class1": "Serious, honest",
+    "class2": "Suspiscious, deceitful",
+    "background1": "A kind lawyer in a suit. He wears a well-fitting suit and a red tie. He has a kind, rugged face.",
+    "background2": "An untrustworthy lawyer in a sloppy suit. He has messy hair and a wicked grin.",
+    "gametype": "Courtroom Drama"
+  },
+    "Maybe a Comedian":{
+      "setting": "The Comedy Club",
+    "name1": "Berry Beinfeld",
+    "name2": "The Audience",
+    "race1": "Comedian",
+    "race2": "A large group of people",
+    "class1": "Clever, funny",
+    "class2": "Uneasy",
+    "background1": "A mid-thiries man with short curly black hair and a long face. He is telling a joke on stage with a microphone",
+    "background2": "A large group of people sitting in an audience",
+    "gametype": "Comedian training"
+    }
+},
+  "Animals":{
+    "Cats": {
+    "setting": "A Feline Paradise",
+    "name1": "Louie",
+    "name2": "Sammy",
+    "race1": "House Cat",
+    "race2": "House Cat",
+    "class1": "Affectionate, happy",
+    "class2": "Meows and purrs a lot",
+    "background1": "A white fluffy cat with yellow eyes.",
+    "background2": "A large orange cat with a goofy expression",
+    "gametype": "Cat"
+  },
+     "Goats":{
+      "setting": "A grassy field",
+    "name1": "Big Goat",
+    "name2": "Little Goat",
+    "race1": "Goat",
+    "race2": "Goat",
+    "class1": "Kind and goat-like",
+    "class2": "Grumpy and goat-like",
+    "background1": "A big furry goat",
+    "background2": "A small furry goat",
+    "gametype": "Dinosaur"
+    },
+    "Dinosaurs":{
+      "setting": "A grassy field, Prehistoric times",
+    "name1": "T-Rex",
+    "name2": "Triceratops",
+    "race1": "T-Rex",
+    "race2": "Triceratops",
+    "class1": "Big dinosaur with little arms",
+    "class2": "Big dinosaur with three horns",
+    "background1": "Tryannosaurus Rex",
+    "background2": "Triceratops",
+    "gametype": "Dinosaur"
+    },
+    "Hedgehogs":{
+      "setting": "A Martial Arts Tournament",
+    "name1": "Kevin the Hedgehog",
+    "name2": "David the Hedgehog",
+    "race1": "Super strong anime hedgehog",
+    "race2": "Super fast anime hedgehog",
+    "class1": "edgy, heroic, super cool",
+    "class2": "edgy, heroic, super cool",
+    "background1": "A red anthropomorphic hedgehog moving at sonic speeds and wearing shoes, deviant art, low quality, fursuit, fan-art, OC",
+    "background2": "A purple anthropomorphic hedgehog moving really fast and wearing shoes and sunglasses, deviant art, low quality, fursuit, fan-art, OC",
+    "gametype": "uncomfortable reddit inspired"
+    }
+  },
+  "Weird Stuff":{
+    "Bank Run":{
+      "setting": "The New York Stock Exchange",
+    "name1": "Jan Yellen",
+    "name2": "The Embodiment of the Economy",
+    "race1": "Secretary of the Treasury",
+    "race2": "Commerce",
+    "class1": "Well-intentioned",
+    "class2": "in a state of bank collapse",
+    "background1": "An older woman with a short gray bob-cut haircut. She wears a pant suit",
+    "background2": "A crashing stock chart",
+    "gametype": "Dry economic commentary"
+    },
+    "Just let me talk to the AI":{
+      "setting": "Conversation. Instead of playing a game, let's just talk.",
+    "name1": "Player One name",
+    "name2": "Sydney",
+    "race1": "Human",
+    "race2": "AI GPT4",
+    "class1": "",
+    "class2": "",
+    "background1": "A human",
+    "background2": "An AI model, cyborg",
+    "gametype": "conversational interview"
+    },
+    "Alone, together":{
+      "setting": "In a coffee shop. In this scenario Older Linda offers advise to her younger self.",
+    "name1": "Linda Amberstone",
+    "name2": "Linda Amberstone",
+    "race1": "Scientist, age 30",
+    "race2": "Time Traveler, age 55",
+    "class1": "Optimistic, hopeful",
+    "class2": "Pessimistic, regretful",
+    "background1": "A thirty-year old woman with brown hair and glasses. She wears a lab coat.",
+    "background2": "A fifty-five-year old woman with grey brown hair and glasses. She wears a tattered lab coat.",
+    "gametype": "self-reflective slice-of-life"
+    }
+  },
+  "Historical":{
+    "John Hancock":{
+      "setting": "The Signing of the Declaration of Independence",
+    "name1": "John Hancock",
+    "name2": "George Washington",
+    "race1": "Politician",
+    "race2": "Politician",
+    "class1": "Loves writing his name",
+    "class2": "Stately, older",
+    "background1": "John Hancock",
+    "background2": "George Washington",
+    "gametype": "Historical"
+    },
+    "Cavemen":{
+      "setting": "A cold cave, year 300000 BC, before the invention of fire.",
+    "name1": "Grog",
+    "name2": "Tong-kuk",
+    "race1": "Caveman",
+    "race2": "Caveman",
+    "class1": "Dreams of inventing fire",
+    "class2": "Believes fire is impossible",
+    "background1": "A handsome caveman in a fur tunic. He has a club",
+    "background2": "A caveman in a fur tunic. He has a stern expression.",
+    "gametype": "Historical"
+    },
+     "Ben Franklin":{
+      "setting": "A thunderstorm",
+    "name1": "Benjamin Franklin",
+    "name2": "A key on a kitestring",
+    "race1": "Inventor, scientist",
+    "race2": "metal, inert",
+    "class1": "Clever, witty",
+    "class2": "Galvanic",
+    "background1": "Benjamin Franklin",
+    "background2": "A key on a kitestring during a thunderstorm",
+    "gametype": "Historical"
+    },
+    "Et tu, Brute?":{
+    "setting": "Curia of Pompey, March 15th",
+    "name1": "Julius Caesar",
+    "name2": "Brutus",
+    "race1": "Roman Dictator",
+    "race2": "Roman Statesman",
+    "class1": "Noble, power hungry, weak to stabbings",
+    "class2": "Noble, power hungry, stabby (secretly plotting to assassinate Caesar)",
+    "background1": "Julius Caesar, Roman",
+    "background2": "Roman statesman, toga",
+    "gametype": "Historical"
+    }
+  }
+}  

@@ -1,0 +1,32 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 90%;
+  width: 500px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+@keyframes flash {
+  0%   {color: gray;}
+  50%  {color: gold;}
+  100% {color: gray;}
+}
+
+.flash {
+  animation: flash 3s linear;
+}

@@ -1,0 +1,177 @@
+.hallucinator{
+  margin:auto auto auto 1.5vw;
+  width:70vw;
+  padding:0.5vw 2vw;
+  border-radius:5px;
+  box-shadow: inset 0 0 4px gold; /* Subtle inset shadow */
+  height:30vh;
+  background-color:#2b2e3b;
+}
+
+.hallucination{
+  max-height:100%;
+  max-width:100%;
+  width:auto;
+  height:auto;
+  opacity:0;
+  margin:auto auto;
+  transition: opacity 0.5s ease;
+  box-shadow: 0 0 2px gold, 0 0 8px black; /* Subtle inset shadow */
+}
+
+.show-characters {
+  display: inline-block;
+  margin:auto auto;
+}
+
+.show-characters-interior{
+  padding:0;
+  margin:0
+}
+
+.hallucination-toggle {
+  position: absolute;
+  top: 0;
+  right: -40px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+/* Add this to your CSS file */
+
+.hallucination-toggle-tooltip {
+  position: absolute;
+  top: 100%; /* Positioned below the button */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 10; /* Ensures it appears above other elements */
+  white-space: nowrap; /* Keeps the text on one line */
+  opacity: 0.9;
+}
+
+/* Arrow pointing upwards */
+.hallucination-toggle-tooltip::after {
+  content: '';
+  position: absolute;
+  bottom: 100%; /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+  max-width: 200px;
+  word-wrap: normal;
+}
+/* Add this to your CSS file */
+@keyframes shake {
+  0% { transform: translateX(-5px); }
+  25% { transform: translateX(5px); }
+  50% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+  100% { transform: translateX(0px); }
+}
+
+.shake-animation {
+  animation: shake 0.5s;
+}
+
+
+.hallucinator {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.fade-in {
+  opacity: 1;
+}
+
+.left-button, .right-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+  border: none;
+  cursor: pointer;
+  padding: 0px 5px;
+  z-index: 10;
+  font-size: 24px;
+  color: #000;
+}
+
+.left-button {
+  left: 10px;
+}
+
+.right-button {
+  right: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .hallucinator{
+    margin:auto auto auto 1.5vw;
+    width:30vw;
+    padding:0.5vw 2vw;
+    border-radius:5px;
+    box-shadow: inset 0 0 7px gold; /* Subtle inset shadow */
+    height:30vh;
+    background-color:#2b2e3b;
+  }
+
+  .hallucination{
+    max-height:100%;
+    max-width:100%;
+    width:auto;
+    height:auto;
+    opacity:0;
+    transition: opacity 0.5s ease;
+  }
+
+  .hallucination-toggle {
+    position: absolute;
+    top: 0;
+    right: -40px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+  }
+
+  .hallucinator {
+    position: relative;
+    overflow: hidden;
+  }
+
+
+  .fade-in {
+    opacity: 1;
+  }
+
+  .left-button, .right-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    border: none;
+    cursor: pointer;
+    padding: 0px 5px;
+    z-index: 10;
+    font-size: 24px;
+    color: #000;
+  }
+
+  .left-button {
+    left: 10px;
+  }
+
+  .right-button {
+    right: 10px;
+  }
+  
+}

@@ -1,0 +1,95 @@
+.farewell-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+  }
+  
+  .logo-div {
+    align-self: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 15vw;
+    max-width: 150px;
+  }
+  
+  .farewell-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .farewell-image {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .farewell-message {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .farewell-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .farewell-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .farewell-button.twitter {
+    background-color: black;
+    color: white;
+  }
+  
+  .farewell-button.website {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .farewell-button:hover {
+    opacity: 0.9;
+  }
+  
+  .MainLinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+  }
+  
+  .MainLinks a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .logo {
+      width: 33vw;
+    }
+  
+    .farewell-buttons {
+      flex-direction: column;
+    }
+  }

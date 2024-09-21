@@ -1,0 +1,42 @@
+.horizontal-row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content:center;
+   flex-direction: row;
+  flex:1;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background: #003333;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  scrollbar-width: thin;
+  border: 1px solid rgba(50, 50, 93, 0.35);
+  
+}
+
+.horizontal-row {
+  margin:1em 0em 1em 0em;
+}
+
+/* App.css */
+
+.vertical-text {
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  margin-right: 10px;
+  color: var(--formHighlight);
+  font-size: 1.3em;
+}
+
+.parent-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .horizontal-row  {
+  margin:1em 1em 1em 1em;
+  width:10vw;
+  min-width:250px;
+  max-height:50vh;
+}
+}

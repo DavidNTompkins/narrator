@@ -1,0 +1,39 @@
+.progressIndicator {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.orb {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  display: inline-block;
+}
+
+.completed {
+  background-color: var(--formOutline);
+  border-color: var(--formHighlight);
+}
+
+.notStarted {
+  background-color: transparent;
+  border-color: gray;
+}
+
+.inProgress {
+  background: linear-gradient(270deg, #ffffff, var(--formHighlight), var(--formOutline));
+  background-size: 200% 200%;
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}

@@ -1,0 +1,47 @@
+.game-container {
+  position: absolute;
+  top:96%;
+  left:-6%;
+  width:100%;
+}
+
+.icon-container {
+  position: absolute;
+  filter: drop-shadow(1px 2px 2px black);
+  -webkit-filter: drop-shadow(1px 2px 2px black);
+  cursor: pointer;
+  top: -0.7rem;
+  left:96%;
+  z-index:25;
+}
+
+.game-info-popup {
+  position: absolute;
+  bottom: 100%;  /* Changed from 'top: 100%' */
+  flex-direction: column;
+  border: 1px solid var(--formOutline);
+  box-shadow: rgba(0, 122, 122, 0.17) 0px -5px 5px 0px inset, rgba(0, 122, 122, 0.15) 0px -18px 15px 0px inset, rgba(0, 122, 122, 0.1) 0px -40px 20px 0px inset, 0 2px 4px 2px var(--formOutline); 
+  border-radius: 10px;
+  margin: 0.2em auto;
+  padding: 1em;
+  width: 90%;
+  height:18em;
+  background-color: black;
+  white-space: pre-line;
+  z-index: 100;
+  overflow-y:scroll;
+}
+.active-button{
+  filter: drop-shadow(-1px 2px 2px var(--formHighlight));
+  -webkit-filter: drop-shadow(1px 2px 2px var(--formHighlight));
+  color:var(--formOutline);
+}
+
+.edit-published-button{
+  filter: drop-shadow(-1px 2px 2px black);
+  -webkit-filter: drop-shadow(1px 2px 2px black);
+  color:var(--formHighlight);
+  position: absolute;
+  bottom:0.4em;
+  left:75%;
+}

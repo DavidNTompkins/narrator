@@ -1,0 +1,28 @@
+.rule-option-button{
+    margin: 0.625em 0.5em 0.2em 0.5em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color:white;
+    border: 1px solid var(--formHighlight);
+    -webkit-text-fill-color: white;
+    background-color: var(--formOutline);
+    box-shadow: var(--formOutline) 1.95px 1.95px 2.6px;
+}
+.rule-option-button:hover{
+      box-shadow: var(--formOutline) 1.95px 1.95px -2.6px;
+}
+
+.rules-editor{
+  background-color:#003333;
+   box-shadow: inset 0 0 5px var(--formOutline);
+  color:#e0e0e0;
+
+  
+}
+.option-selector-div p{
+  margin:0;
+  padding:0;
+  padding-top:0.5em;
+  font-size:1.3em;
+  color: var(--formHighlight);
+}

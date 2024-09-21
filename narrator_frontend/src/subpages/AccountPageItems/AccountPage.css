@@ -1,0 +1,167 @@
+.user-profile-block{
+ max-width:min(60%,800px);
+  margin:auto;
+  background:var(--form);
+  padding:10px;
+  padding-bottom:20px;
+  border-radius:5px;
+  margin-top:40px;
+  box-shadow: rgba(0, 122, 122, 0.17) 0px -5px 6px 0px inset, rgba(0, 122, 122, 0.15) 0px -6px 5px 0px inset, rgba(0, 122, 122, 0.1) 0px -16px 8px 0px inset, 0 2px 3px 0 var(--formOutline), 0 3px 10px 0 var(--formOutline);
+  
+}
+
+.user-profile-block {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top:50px;
+  text-align: center;
+   box-shadow: rgba(0, 122, 122, 0.17) 0px -5px 6px 0px inset, rgba(0, 122, 122, 0.15) 0px -6px 5px 0px inset, rgba(0, 122, 122, 0.1) 0px -16px 8px 0px inset, 0 2px 3px 0 var(--formOutline), 0 3px 10px 0 var(--formOutline);
+  border: 1px solid var(--formOutline);
+}
+
+.user-profile-block h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.user-profile-block p {
+  font-size: 1em;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.user-profile-block p strong {
+  color:white;
+}
+
+.user-profile-block p:nth-child(3) {
+  
+}
+
+.SubscriptionStatus, .EditProfile {
+  margin-top: 20px;
+}
+
+.free-month-coin, .free-month-coin-gold{
+  width:30%;
+  display:inline-block;
+  border-radius:50%
+}
+@keyframes shimmer {
+  0% {
+    background-position: -200% 200%;
+  }
+  100% {
+    background-position: 200% -200%;
+  }
+}
+
+.free-month-coin-gold{
+  filter: drop-shadow(0 0 2px gold) drop-shadow(0 0 5px var(--formHighlight));
+  animation: shimmer 2s linear infinite;
+  background: linear-gradient(90deg, transparent, var(--formHighlight), transparent, gold);
+  background-size: 200% 200%;
+  margin:10px;
+  cursor:pointer;
+}
+.free-month-coin-gold:hover{
+  background-size: 5000% 5000%;
+}
+.free-month-coin-active{
+  filter: drop-shadow(0 0 2px var(--form)) drop-shadow(0 0 5px var(--formHighlight));
+  animation: shimmer 2s linear infinite;
+  background: linear-gradient(90deg, transparent, var(--formHighlight), transparent, var(--form));
+  background-size: 200% 200%;
+  margin:auto;
+}
+
+
+
+.freemonth-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  z-index: 9999;
+
+}
+
+.freemonth-popup-content {
+   background-color: black;
+  padding: 20px;
+  max-width:600px;
+  border-radius: 8px;
+  border: 2px solid #b4ecee;
+  box-shadow: 0 4px 8px 0 #007a7a, 0 6px 20px 0 #007a7a;
+}
+
+.freemonth-popup-content-button {
+color:var(--formHighlight);
+  cursor: pointer;
+  background: var(--formOutline);
+  font-size:1.0em;
+  border: 2px solid var(--form);
+  border-radius: 5px;
+  padding: 0.6em;
+}
+.freemonth-popup-content-cancel-button {
+    color:#b4ecee;
+  cursor: pointer;
+  background: #7a0000;
+  border: 2px solid #3d0000;
+  font-size:1.0em;
+  border-radius: 3px;
+  padding: 0.6em;
+    margin-right:0.3em;
+
+}
+
+.active-bar{
+   margin: auto;
+  border-radius: 15px;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  font-weight:bold;
+  animation: glassy-animation 3s infinite alternate;
+  position: absolute;
+  top: 25%;
+  text-align: center;
+  width: 90%;
+}
+
+@keyframes glassy-animation {
+  0% {
+    box-shadow: 0 4px 6px 0 #3d0000aa;
+  }
+
+  100% {
+    box-shadow: 0 4px 12px 0 #b4eceecc;
+  }
+}
+
+.used-bar{
+   margin: auto;
+  border-radius: 15px;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  position: absolute;
+  top: 25%;
+  text-align: center;
+  width: 95%;
+}
+}

@@ -1,0 +1,59 @@
+.model-selector{
+  display:inline-block;
+  background:var(--formOutline);
+  border-radius: 5px;
+  border:1px solid var(--formHighlight);
+  padding:0.3em;
+  margin:auto;
+  margin-bottom:0.4em;
+  box-shadow: var(--formOutline) 1.95px 1.95px 2.6px;
+  cursor:pointer;
+}
+.model-selector:hover{
+      box-shadow: var(--formOutline) 1.95px 1.95px -2.6px;
+}
+
+.model-selector p {
+  display:inline;
+  padding:0.3em;
+}
+
+.model-dropdown{
+  background: var(--formOutline);
+  border:none;
+  color:white;
+  font-family: 'Tektur', sans-serif;
+
+}
+
+.model-dropdown:focus {
+  border: none; /* Change the color and width as you prefer */
+  outline: none; /* This removes the default focus outline, you may want to keep it for accessibility reasons */
+}
+
+
+.setting-field{
+  display: block;
+  color:var(--formHighlight);
+  font-size: 0.8em;
+    vertical-align: top;
+  margin: 0 auto 20px auto;
+  
+  
+}
+.setting-field label{
+  display: inline;
+  font-weight: bold;
+}
+.setting-field input{
+  max-width:50px;
+  margin-right:10px;
+  min-width:50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .setting-field{
+    display: inline-block;
+    max-width:50%;
+  }
+}

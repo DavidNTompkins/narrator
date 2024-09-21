@@ -1,0 +1,44 @@
+div[type="AdventurePageGameStatusBlock"] {
+  margin:4px;
+  height:20px;
+}
+
+.adventure-summary-tooltip{
+  visibility: hidden;
+  width: 30em;
+  background-color: #555555cc;
+  font-size:12px;
+  color: var(--formHighlight);
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1000;
+  top: 100%;
+  left: 0%;
+  transform: translateY(10%);
+  margin-left: 0px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.adventure-summary-tooltip::after {
+  content: '';
+  position: absolute;
+  top: -10%;
+  left: 25%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #555 transparent;
+}
+
+.startButton:hover .adventure-summary-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+

@@ -1,0 +1,65 @@
+.loginBlock-input::placeholder{
+color: #b4ecee
+  
+}
+
+.LoginBlock-recoverEmailButton{
+  color:#b4ecee;
+  cursor: pointer;
+  background: #7a0000;
+  border: 2px solid #3d0000;
+  font-size:1.0em;
+  border-radius: 3px;
+  padding: 0.6em;
+}
+
+.LoginBlock-emailLoginButton{
+  color:var(--formHighlight);
+  cursor: pointer;
+  background: var(--formOutline);
+  font-size:1.0em;
+  border: 2px solid var(--form);
+  border-radius: 5px;
+  padding: 0.6em;
+}
+
+.LoginBlock-googleLoginButton{
+  display: flex;
+  cursor: pointer;
+  color:var(--formHighlight);
+  margin: 1em auto 1.5em auto;
+  font-size:1.0em;
+  background: var(--formOutline);
+  border: 2px solid var(--form);
+  border-radius: 5px;
+  padding: 0.6em;
+}
+
+.LoginBlock-LoginButtons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin:5px 0 5px 0;
+}
+
+.LoginBlocker-logo{
+  box-shadow: 0 4px 8px
+}
+
+.LoginBlock-switchDiv{
+  text-align:left;
+}
+.LoginBlock-switchRegister{
+  color:var(--formHighlight);
+  cursor: pointer;
+  background: none;
+  font-size:1.0em;
+  border: none;
+  padding: 0.1em;
+  margin:auto;
+  margin-bottom:1px;
+}
+
+.LoginBlock-switchRegister:hover{
+  color: white;
+}

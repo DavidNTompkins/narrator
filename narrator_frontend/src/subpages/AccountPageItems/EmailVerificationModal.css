@@ -1,0 +1,45 @@
+.verification-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  z-index: 9999;
+}
+
+.verification-text{
+  color:var(--formHighlight);
+}
+
+.verification-modal {
+  background-color: black;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #b4ecee;
+  color: #000;
+  box-shadow: 0 4px 8px 0 #007a7a, 0 6px 20px 0 #007a7a;
+}
+
+.verification-modal h2 {
+  color: #b4ecee;
+}
+
+.verification-modal-input {
+  max-width: 300px;
+  background-color: #003333;
+  color: #b4ecee;
+  border: 1px solid #b4ecee;
+  padding: 0.4em;
+  margin-bottom: 0.8em;
+}
+
+.verification-error-message {
+  color: red; /* Add your own styling for error message */
+}
+
+/* Add any additional classes you require */

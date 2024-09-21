@@ -1,0 +1,469 @@
+/* AdventureCard.css */
+:root {
+  --form: #004040;
+  --formOutline: #007a7a;
+  --formHighlight:#b4ecee;
+  --ButtonShadow: #3d0000;
+  --Button: #7a0000;
+  --easeTime: 0.3s;
+}
+.card,.red-card, .gold-card, .ad-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--formOutline);
+  box-shadow: rgba(0, 122, 122, 0.17) 0px -5px 5px 0px inset, rgba(0, 122, 122, 0.15) 0px -18px 15px 0px inset, rgba(0, 122, 122, 0.1) 0px -40px 20px 0px inset, 0 2px 4px 2px var(--formOutline); 
+  border-radius: 10px;
+  margin: 0.2em auto;
+  padding: 1em;
+  width: 18em;
+  position: relative; 
+  background-color: var(--form);
+}
+
+
+
+.gold-card{
+  border: 1px solid gold;
+  box-shadow: rgba(255,215,0, 0.17) 0px -5px 5px 0px inset, rgba(255,215,0, 0.15) 0px -18px 15px 0px inset, rgba(255,215,0, 0.1) 0px -40px 20px 0px inset, 0 2px 4px 2px rgba(255,215,0, 0.1);
+}
+  .author-name{
+    cursor:pointer;
+    display:inline;
+  }
+  .ad-card{
+    border: 1px solid #819595;
+    box-shadow: rgba(129,149,149, 0.17) 0px -5px 5px 0px inset, rgba(129,149,149, 0.15) 0px -18px 15px 0px inset, rgba(129,149,149, 0.1) 0px -40px 20px 0px inset, 0 2px 4px 2px rgba(129,149,149, 0.1); 
+  }
+
+  .author-name:hover{
+    text-decoration:underline;
+  }
+  .star-icon{
+   cursor: pointer;
+  font-size: 24px;
+  transition: all 0.3s ease;
+  text-shadow: 0px 0px 3px #b4eceeaa;
+  display: inline-block;
+  margin-top:2px;
+  width: 24px;
+  height: 24px;
+  line-height: 26px;
+  text-align: center;
+  vertical-align: middle;
+  }
+.genre-selector{
+  font-family: 'Tektur', sans-serif;
+  border-radius:0;
+  margin:0;
+  padding:0;
+}
+genre-selector-div{
+  padding:10px;
+}
+.adventure-model-select{
+  background: transparent;
+  display:block;
+  border: none;
+  outline: none;
+  color:var(--formHighlight);
+  margin:0.1em auto 0.4em;
+  text-align:center;
+}
+.adventure-model-select:hover{
+  cursor:pointer;
+}
+.adventure-model-select option{
+  background:var(--form);
+  text-align:center;
+}
+
+.star-icon-inactive{
+  cursor: pointer;
+  font-size: 24px;
+  transition: all 0.2s ease;
+  display: inline-block;
+  margin-top:2px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: middle;
+  color:#242631;
+  -webkit-text-stroke: 1px var(--formOutline);
+  text-shadow: 1px 1px 3px var(--formOutline) inset;
+}
+  .star-icon.selected, .star-icon-inactive.selected {
+  color: gold;
+  text-shadow: 0px 0px 5px rgba(255, 215, 0, 0.8);
+}
+.star-icon:hover, .star-icon-inactive:hover {
+  transform: scale(1.2);
+  text-shadow: 0px 0px 3px rgba(255, 215, 0, 1);
+  transform-origin: center;
+}
+
+  .card:hover{
+    box-shadow: rgba(0, 122, 122, 0.17) 0px -10px 10px 0px inset, rgba(0, 122, 122, 0.15) 0px -36px 30px 0px inset, rgba(0, 122, 122, 0.1) 0px -79px 40px 0px inset, 0 4px 8px 0 var(--formOutline), 0 2px 20px 0 var(--formOutline);
+  }
+  .gold-card:hover{
+    box-shadow: rgba(255,215,0, 0.17) 0px -10px 10px 0px inset, rgba(255,215,0, 0.15) 0px -36px 30px 0px inset, rgba(255,215,0, 0.1) 0px -79px 40px 0px inset, 0 4px 8px 0 rgba(255,215,0, 1), 0 2px 20px 0 rgba(255,215,0, 1);
+  }
+.red-card{
+    box-shadow: rgba(122, 0, 0, 0.17) 0px -5px 5px 0px inset, rgba(122, 0, 0, 0.15) 0px -18px 15px 0px inset, rgba(122, 0, 0, 0.1) 0px -40px 20px 0px inset, 0 2px 4px 2px var(--Button); 
+}
+.red-card:hover{
+  box-shadow: rgba(122, 0, 0, 0.17) 0px -10px 10px 0px inset, rgba(122, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(122, 0, 0, 0.1) 0px -79px 40px 0px inset, 0 4px 8px 0 var(--Button), 0 2px 20px 0 var(--Button);
+}
+.ad-card:hover{
+  box-shadow: rgba(129,149,149, 0.17) 0px -10px 10px 0px inset, rgba(129,149,149, 0.15) 0px -36px 30px 0px inset, rgba(129,149,149, 0.1) 0px -79px 40px 0px inset, 0 4px 8px 0 rgba(129,149,149, 1), 0 2px 20px 0 rgba(129,149,149, 1);
+}
+
+
+.card-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-images img {
+  width: 100%;
+  max-width: 8.6em;
+  height:8.6em;
+
+  border-radius: 5px;
+}
+
+.card-info {
+  margin-top: 0.4em;
+}
+
+.card-enter {
+  opacity: 0.01;
+}
+
+.card-enter-active {
+  opacity: 1;
+  transition: opacity 500ms, transform 500ms;
+}
+
+.card-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-exit-active {
+  opacity: 0.01;
+  transition: opacity 500ms, transform 500ms;
+}
+
+
+.card-info h3 {
+  font-size: 1.2em;
+  text-align:center;
+  margin: 0.2em 0 0 0;
+  height: 1.6em;
+  color: #fff;
+}
+
+
+.card-info p {
+  margin-top: 0.1em;
+  font-size:0.7em;
+  margin-bottom:0px;
+  color: #fff;
+}
+/* AdventureCard.css */
+.card-stats {
+  margin-top: 0;
+  margin-bottom:0;
+  color: #fff;
+}
+
+.card-stats p {
+  font-size:0.7em;
+  margin:0;
+  color: #fff;
+}
+
+.card-stats span:not(:first-child) {
+  
+}
+.explore-page {
+  width: 100%;
+  min-height:100vh;
+  margin:auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-gap: 1em;
+  max-width: calc(20em * 4 + 1em * 3); /* max 4 columns with grid-gap included */
+  align-items:center;
+
+}
+/* AdventureCard.css */
+.character-image-container {
+  position: relative;
+}
+
+.photo-name {
+  position: float;
+  bottom: 0;
+  padding:0;
+  margin: 0;
+  margin-top:0.1em;
+  left: 0;
+  width: 100%;
+  font-size: 0.8em;
+  color: #aaa;
+  text-align: center;
+}
+
+/* AdventureCard.css */
+.card-button {
+  position: float;
+  display: inline;
+  padding: 0.5em 0.8em;
+  margin:auto;
+  margin-top:1.4em;
+  margin-bottom:0.3em;
+  font-size: 0.9em;
+  background-color: var(--formOutline);
+  color: white;
+  border: 1px solid var(--formHighlight);
+  box-shadow: 0 2px 2px 0 black, 0 2px 5px 0 black;
+  border-radius: 1em;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s;
+}
+
+
+.card-button:hover {
+  background-color: var(--formOutline);
+  box-shadow: 0 2px 1px 0 black;
+}
+.card-button2:hover{
+  box-shadow: 0 1px 1px 0 gold;
+}
+.adventure-button-div{
+  display: flex;        /* Enables Flexbox */
+  justify-content: space-between; /* Distributes space evenly between the buttons */
+  align-items: center;  /* Aligns buttons vertically in the center */
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top:-15px;
+  background-color: #414458;
+  border-radius: 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 2px;
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none !important;
+  outline: none;
+  font-size: 16px;
+  padding: 4px;
+  background-color: transparent !important;
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  color: var(--formHighlight);
+}
+
+.createIcon {
+  height: auto;
+  width: auto;
+  margin:auto;
+  display: inline;
+  position: relative;
+  left:null;
+  top: null;
+  height: null;
+/*  display: fixed;
+  position: absolute;
+  left:7.5%;
+  top: 2.3%;
+  height: 2.8em;
+  width: auto;*/
+}
+/* Search container */
+
+
+/* Safe-search toggle */
+.safe-search-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  user-select: none;
+  text-align:right;
+}
+
+.safe-search-toggle {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.safe-search-toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.safe-search-toggle-slider {
+  position: relative;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+
+.safe-search-toggle-slider:before {
+  position: relative;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+.safe-search-toggle input:checked + .safe-search-toggle-slider {
+  background-color: green !important;
+}
+
+.safe-search-toggle input:checked + .safe-search-toggle-slider:before {
+  transform: translateX(20px);
+}
+.link-button{
+  filter: drop-shadow(1px 2px 2px black);
+  -webkit-filter: drop-shadow(1px 2px 2px black);
+  position:absolute;
+  border:none;
+  left:81%;
+  bottom:2%;
+  background:none;
+  color: var(--formHighlight);
+  cursor: pointer;
+  border-radius:50%;
+}
+.link-button :hover{
+  filter: drop-shadow(0px 0px 0px black);
+  -webkit-filter: drop-shadow(0px 0px 0px black);
+}
+  .publishedDeleteButton{
+  border:none;
+  left:0%;
+  bottom:2%;
+  
+  cursor: pointer;
+  border-radius:50%;
+}
+.publishedDeleteButton button, .publishedDeleteButton svg {
+  background:none;
+  color: var(red);
+  border:none;
+  padding:0.2em 0 0 0;
+}
+.publishedDeleteButton :hover{
+  filter: drop-shadow( 2px 4px 15px red);
+  
+}
+.link-popup {
+  position: absolute;
+  top: 75%;
+  border: 1px solid var(--formOutline);
+  color:var(--formHighlight);
+  box-shadow: rgba(0, 122, 122, 0.17) 0px -5px 5px 0px inset, rgba(0, 122, 122, 0.15) 0px -18px 15px 0px inset, rgba(0, 122, 122, 0.1) 0px -40px 20px 0px inset, 0 2px 4px 2px var(--formOutline); 
+  border-radius: 10px;
+  margin: 0.2em auto;
+  padding: 1em 0.5em;
+  width: 85%;
+  background-color: black;
+  z-index: 100;
+}
+  .next-page-button {
+  background: var(--form);
+    color:var(--formHighlight);
+    border: 1px outset var(--formOutline);
+    box-shadow: 0 2px 2px var(--formHighlight);
+    cursor:pointer;
+    padding:0.6em;
+}
+.next-page-button:hover{
+  box-shadow: 1px 1px 1px var(--formHighlight);
+}
+
+/* Things that need special desktop styling */
+@media only screen and (min-width: 768px) {
+  .genre-selector-div{
+    padding:9px;
+  }
+  
+.createIcon {
+  height: auto;
+  width: auto;
+  margin:auto;
+  display: inline;
+  position: relative;
+  left:null;
+  top: null;
+  height: null;
+  
+}
+
+    .star-icon{
+   cursor: pointer;
+  font-size: 24px;
+  transition: all 0.3s ease;
+  text-shadow: 0px 0px 5px var(--formHighlight);
+  display: inline-block;
+  margin-top:2px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: middle;
+  }
+  .mod-nsfw-button{}
+  .explore-page {
+  width: 75vw;
+  }
+  .card{
+     box-shadow: rgba(0, 122, 122, 0.17) 0px -10px 10px 0px inset, rgba(0, 122, 122, 0.15) 0px -36px 30px 0px inset, rgba(0, 122, 122, 0.1) 0px -79px 40px 0px inset, 0 2px 0px 0 var(--formOutline);
+  }
+  .card:hover{
+    box-shadow: rgba(0, 122, 122, 0.17) 0px -10px 10px 0px inset, rgba(0, 122, 122, 0.15) 0px -36px 30px 0px inset, rgba(0, 122, 122, 0.1) 0px -79px 40px 0px inset, 0 4px 8px 0 var(--formOutline), 0 2px 50px 0 var(--formOutline);
+  }
+  .red-card{
+     box-shadow: rgba(122,0,0, 0.17) 0px -10px 10px 0px inset, rgba(122,0,0, 0.15) 0px -36px 30px 0px inset, rgba(122,0,0, 0.1) 0px -79px 40px 0px inset, 0 2px 0px 0 var(--Button);
+  }
+  .red-card:hover{
+    box-shadow: rgba(122,0,0, 0.17) 0px -10px 10px 0px inset, rgba(122,0,0, 0.15) 0px -36px 30px 0px inset, rgba(122,0,0, 0.1) 0px -79px 40px 0px inset, 0 4px 8px 0 var(--Button), 0 2px 50px 0 var(--Button);
+  }
+}
