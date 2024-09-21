@@ -10,9 +10,8 @@ Welcome to the open-source version of [playnarrator.com](https://playnarrator.co
 4. [Running the Application](#running-the-application)
 5. [Stopping the Application](#stopping-the-application)
 6. [Troubleshooting](#troubleshooting)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Contact](#contact)
+7. [License](#license)
+8. [Contact](#contact)
 
 ## Prerequisites
 
@@ -110,18 +109,6 @@ If you encounter any issues:
    ```
 4. For Windows users, make sure you're running the `.bat` file as an administrator
 5. For Mac/Linux users, ensure the `.sh` file has execute permissions
-
-## Contributing
-
-We welcome contributions to the Open Source Playnarrator! If you'd like to contribute:
-
-1. Fork the repository
-2. Create a new branch for your feature or bug fix
-3. Make your changes and commit them with a clear message
-4. Push your changes to your fork
-5. Create a pull request to the main repository
-
-Please ensure your code adheres to the existing style and includes appropriate tests.
 
 ## License
 This project is released under the Unlicense. This means you can do whatever you want with this code - use it, modify it, distribute it, or even sell it. There are no restrictions whatsoever. It's all yours!
